@@ -1,0 +1,13 @@
+Types of SQL Commands - DDL, DML DCL TCL
+Creating a table Example - CREATE TABLE Student(
+		StudentID    INT,
+		FirstName    Varchar(50),
+		LastName     Varchar(50),
+		Age			 INT
+);
+INSERT INTO and SELECT Example- 		
+INSERT INTO Student
+(StudentID, FirstName, LastName, Age)
+VALUES (1, 'Rahul', 'Kumar', 20)
+
+SELECT*FROM Student;
