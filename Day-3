@@ -1,0 +1,49 @@
+Update,Delete,Trucate,Drop, Alter
+
+
+UPDATE Student
+SET Age = 25
+WHERE StudentID = 1;
+
+DELETE FROM Student
+WHERE StudentID= 2;
+
+TRUNCATE TABLE Student;
+
+DROP TABLE Student;
+
+ALTER TABLE Student ADD Email varchar(100);
+
+ALTER TABLE Student ALTER COLUMN FirstName VARCHAR(50);
+
+ALTER TABLE Student DROP COLUMN Email;
+
+
+ALTER TABLE Student
+ALTER COLUMN StudentID INT NOT NULL ;
+
+ALTER TABLE Student
+ADD CONSTRAINT PK_Student
+PRIMARY KEY (StudentID);
+
+ALTER TABLE Student
+ALTER COLUMN FirstName VARCHAR(50) NOT NULL;
+
+CREATE TABLE Employee (
+    EmployeeID INT,
+    Salary INT
+);
+
+INSERT INTO Employee (EmployeeID, Salary)
+VALUES (1, 25000);
+
+INSERT INTO Employee (EmployeeID, Salary)
+VALUES (2, 35000);
+
+INSERT INTO Employee (EmployeeID, Salary)
+VALUES (3, 45000);
+
+SELECT*FROM Employee;
+
+ALTER TABLE Employee
+ALTER COLUMN Salary DECIMAL(10,2);
