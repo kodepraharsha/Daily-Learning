@@ -1,0 +1,10 @@
+Command Line - Also called as the Command Line Interface(CLT) or Terminal.
+The command line is a program where you type commands to perform tasks such as creating files, running programs,
+navigating folders, and managing your system.
+The four basic command line functionalities are Navigation, Manipulation, Redirection, Configuration.
+Navigation - Move around the file system.
+Manipulation - Manage files and directories.
+Redirection - Control where command input and output go.
+Configuration - Set up the shell environment and environment variables.
+For windows - Command Prompt
+For MacOS/Linus - Bash
