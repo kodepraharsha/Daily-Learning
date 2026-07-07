@@ -1,0 +1,29 @@
+Python- It is a multi-purpose programming language.
+Using python and a framework called Django, we can build amazing websites.
+Five websites powered with python and Django: Youtube,Instagram,Spotify,Dropbox and Pinterest.
+Download PyCharm.
+
+print("Hello World")
+
+Hello World - String
+A string means a string or sequence of characters, that means textual data.
+In programming language we're dealing with textual data, we should surround our text with quotes.
+In python, we can use single or double quotes.
+The 'print' function build into python and we can use it to print a message on our application window.
+Variables - We use variables to temporalily store data in a computers memory.
+
+Example - age = 20
+          print(age)
+
+In python we can use numbers with decimal points or whole number.
+Boolean value, which can be true or false.
+Python is a case-sensitive language, so its sensitive to lowercase and uppercase letters.
+Example -
+
+patient_name = "John Smith"
+age = 20
+is_new_patient = True
+
+print("Patient Name: ",patient_name)
+print("Age: " , age)
+print("New Patient: ", is_new_patient)
