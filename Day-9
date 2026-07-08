@@ -1,0 +1,45 @@
+Receiving Input - We use this to read a value from the terminal window.
+
+name = input("What is your name? ")
+print("Hello " + name)
+
+Type Conversion - It is the process of changing one data type to another data type.
+
+Integer- birth_year = input("Enter your birth year: ")
+age = 2026 - int(birth_year)
+print(age)
+
+Float - A floating point number in python and other programming languages is a number with a decimal point.
+
+num1 = int(input("First Number: "))
+num2 = float(input("Second Number: "))
+total = num1 + num2
+print("Sum: ", total)
+
+num1 = input("First Number: ")
+num2 = input("Second Number: ")
+sum = float(num1) + int(num2)
+print("Sum: ", sum)
+
+Interger(int), Float(float),Boolean(bool),String(str)- These are the built-in functions for converting
+the type of our variables.
+
+Strings - A string is a sequence of characters enclosed in single quotes, double quotes or triple quotes.
+
+course= "Python for beginners"
+print(course.upper())
+
+course= "Python for beginners"
+print(course.find("h"))
+
+course= "Python for beginners"
+print(course.find("Python"))
+
+This methods does not change our original string.It will return new String.
+Replace Method - We can replace something in a string with something else.
+
+course= "Python for beginners"
+print(course.replace("for", "4"))
+
+In Operator - course= "Python for beginners"
+print("Python" in course)-The result is boolen value
