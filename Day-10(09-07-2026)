@@ -1,0 +1,69 @@
+Arithmetic Operators 
+Operators - Addition(+), Subtraction(-), Multiplication(*), Division(/), Modulus(Remainder %)
+Exponent(Power **), Floor Division(//)
+Addition Operator - print("Addition:",10+3) 
+Subtarction Operator - print("Subtraction:", 10-3)
+Multiplication Operator - print("Multiplication:", 10*3)
+Division Operator - print("Division:", 10/3)
+Floor Division Operator - print("Floor Division:", 10//3)
+Modulus Operator - print("Modulus:", 10%3)
+Exponent Operator - print("Exponent:", 10**3)
+
+Augmented Assignment operator
+Add and Assign(+=)
+x=10
+x+=5
+print("Addition:",x)
+
+Substract and Assign(-=)
+x=10
+x-=5
+print("Subtraction:", x)
+
+Multiply and Assign
+x=10
+x*=5
+print("Multiplication:", x)
+
+Divide and Assign
+x=10
+x/=5
+print("Division:", x)
+
+Modulus and Assign(%=)
+x=10
+x%=5
+print("Modulus:", x)
+
+Exponent and Assign(**=)
+x=10
+x**=5
+print("Exponent:", x)
+
+Floor divide and Assign(//=)
+x=10
+x//=5
+print("Floor Division:", x)
+
+Operator Procedence:
+Operator Precedence is the order in which python evalutes operator in an expression.
+If an expression contains multiple operators, Python follows a predefined order to decide which operator is performed first.
+
+Order of Operator Precedence(Highest to Lowest)
+Parentheses(), Exponent(Power **), Unary Plus(+x), Unary Minus(-x), Multiplication(*), Division(/), Floor Division(//),
+Modulus(%),Addition(+), Subtraction(-), Comparision Operators((==),(!=),>,<,>=,<=), Logical NOT(not), Logical AND(and)
+Logical OR(or)
+
+Easy Memory Trick(PEMDAS)
+P - Parentheses()
+E - Exponent(**)
+M - Multiplication(*)
+D - Division(/), Floor Division(//), Modulus(%)
+A - Addition(+)
+S - Subtraction(-)
+
+Parentheses() are evaluated first.
+Exponent(**) is evaluated before multiplication and division.
+(*),(/),(//),(%) are evaluated before (+) and (-).
+Comparision operators are evaluated after arthematic operators.
+Logical Operators are evaluated last (not-->and-->or).
